@@ -1,7 +1,6 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,14 @@
     "express-validator": "^6.14.0",
     "mongoose": "^6.2.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirajahmaduos/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mirajahmaduos/api/issues"
+  },
+  "homepage": "https://github.com/mirajahmaduos/api#readme",
+  "description": ""
 }
