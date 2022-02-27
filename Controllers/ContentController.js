@@ -28,6 +28,9 @@ exports.deleteContent = async (req, res) => {
     const content = await contentModel.findByIdAndDelete(req.params.id);
     res.status(200).send("content deleted!!!");
 }
+exports.testfunction =async (req, res)=>{
+    
+}
 exports.deleteBunch = async (req, res) => {
     try{
         const contents = await contentModel.deleteMany({ContentType:req.params.type});
